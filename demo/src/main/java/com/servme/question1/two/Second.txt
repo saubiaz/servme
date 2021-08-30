@@ -1,0 +1,6 @@
+Looking at the above defined classes we can notice that there are a lot in common between them, is such a redundancy a bad or good
+practice? why?
+
+This redundancy is not good practice because if there is a change required in the searchByName class
+(since the implementations of both the classes are same) then we need to make changes in both the methods otherwise it may
+create an ambiguity in the  code.

@@ -1,0 +1,2 @@
+Based on the implementation of adding items and later iterate over them,  best bet is ArrayList as it's closest to the arrays which we are replacing.
+It's more memory efficient than LinkedList or any Set implementation, has fast insertion, iteration, and random access.
